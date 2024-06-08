@@ -37,7 +37,7 @@ export default function Select() {
         localStorage.setItem("dvm_id", data.dvm_id);
         localStorage.setItem("coor_x", data.coor_x);
         localStorage.setItem("coor_y", data.coor_y);
-        navigate("/prepayment");
+        navigate("/payment-pre");
       } else {
         localStorage.setItem("error_msg", "No Stock");
         navigate("/error");

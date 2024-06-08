@@ -28,6 +28,9 @@ export default function PrepaymentConfirm() {
               localStorage.removeItem("code");
               localStorage.removeItem("item_code");
               localStorage.removeItem("item_num");
+              localStorage.removeItem("dvm_id");
+              localStorage.removeItem("coor_x");
+              localStorage.removeItem("coor_y");
             }}
           >
             Go Back

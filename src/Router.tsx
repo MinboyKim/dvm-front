@@ -20,6 +20,7 @@ import Error from "./pages/Error";
 import Prepayment from "./pages/Prepayment";
 import PrepaymentConfirm from "./pages/PrepaymentConfirm";
 import PrepaymentFailure from "./pages/PrepaymentFailure";
+import PrepaymentPayment from "./pages/PrepaymentPayment";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -32,6 +33,7 @@ export const router = createBrowserRouter(
         <Route path="select" element={<Select />} />
         <Route path="payment" element={<Payment />} />
         <Route path="offer" element={<Offer />} />
+        <Route path="payment-pre" element={<PrepaymentPayment />} />
         <Route path="prepayment" element={<Prepayment />} />
         <Route path="prepayment-confirm" element={<PrepaymentConfirm />} />
         <Route path="prepayment-failure" element={<PrepaymentFailure />} />
