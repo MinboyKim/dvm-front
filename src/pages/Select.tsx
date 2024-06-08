@@ -34,6 +34,8 @@ export default function Select() {
         localStorage.setItem("item_num", num);
         navigate("/payment");
       } else if (data.prepayment) {
+        localStorage.setItem("item_code", code);
+        localStorage.setItem("item_num", num);
         localStorage.setItem("dvm_id", data.dvm_id);
         localStorage.setItem("coor_x", data.coor_x);
         localStorage.setItem("coor_y", data.coor_y);
